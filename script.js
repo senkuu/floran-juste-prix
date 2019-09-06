@@ -45,7 +45,7 @@ setTimeout(() => {
     title.innerText =
       "La zoé de flo coutait " +
       randomNumber +
-      " K ! Tu as un deuxième trou du cul maintenant, bravo !";
+      " K ! Flo va te niquer ta race, bravo !";
   }
   document.getElementById("restart").style.visibility = "visible";
 }, 8000);
