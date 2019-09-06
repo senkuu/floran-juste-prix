@@ -6,7 +6,7 @@ setTimeout(() => {
 
 setTimeout(() => {
   title.innerText =
-    "Devine le prix de la zoé de Flo (un nombre entre 0 et 100k). Trouves en 5 essais, ou flo te nique ta race s.";
+    "Devine le prix de la zoé de Flo (un nombre entre 0 et 100k). Trouves en 8 essais, ou flo te nique ta race.";
 }, 4000);
 
 setTimeout(() => {
@@ -47,4 +47,9 @@ setTimeout(() => {
       randomNumber +
       " K ! Tu as un deuxième trou du cul maintenant, bravo !";
   }
+  document.getElementById("restart").style.visibility = "visible";
 }, 8000);
+
+document.getElementById("restart").addEventListener("click", e => {
+  location.reload();
+});
