@@ -17,7 +17,7 @@ setTimeout(() => {
   do {
     if (lifes === 1) {
       userNumber = parseInt(prompt("Dernier essai, ou tu vas te faire niquer"));
-    } else if (lifes <= 4) {
+    } else if (lifes <= 3) {
       userNumber = parseInt(
         prompt("Il te reste " + lifes + " vies, fais gaffe à toi")
       );
